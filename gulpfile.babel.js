@@ -6,7 +6,6 @@ import source from 'vinyl-source-stream'
 import path from 'path'
 import babelify from 'babelify'
 import nodemon from 'gulp-nodemon'
-import reactify from 'reactify'
 
 const relativePathToJs = path.relative('.', 'src');
 
